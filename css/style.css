@@ -118,6 +118,7 @@ body {
   margin: auto;
   gap: 10px;
   margin-bottom: 8px;
+  text-decoration: none;
 }
 
 .button.tg {
@@ -137,7 +138,6 @@ body {
 }
 
 .button-text {
-  text-decoration: none;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
