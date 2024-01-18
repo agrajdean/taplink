@@ -63,8 +63,7 @@ body {
 }
 
 .user-name {
-  margin-top: 12px;
-  margin-bottom: 8px;
+  margin: 12px 0px 8px;
   color: #616060;
   font-size: 28px;
   font-style: normal;
@@ -74,10 +73,27 @@ body {
 }
 
 .user-description {
+  margin-bottom: 10px;
+  margin-top: -2px;
   color: #616060;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.56px;
+}
+
+.card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding-bottom: 120px;
+}
+
+.pagination {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
